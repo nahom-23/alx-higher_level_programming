@@ -1,3 +1,3 @@
 #!/bin/bash
-# A bash Script that SEND GET and Display body of header
-curl -s "$1" -H "X-School-User-Id: 98"
+#pass a variable in the header of the request
+curl -sH "X-HolbertonSchool-User-Id: 98" "$1"
